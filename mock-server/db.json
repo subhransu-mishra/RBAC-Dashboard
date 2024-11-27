@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "roles": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "roles": [
+        2
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "permissions": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Editor",
+      "permissions": [
+        1,
+        2
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": 1,
+      "name": "read"
+    },
+    {
+      "id": 2,
+      "name": "write"
+    },
+    {
+      "id": 3,
+      "name": "delete"
+    },
+    {
+      "id": "9322",
+      "name": "copy"
+    },
+    {
+      "id": "ac42",
+      "name": "fetch"
+    }
+  ]
+}
